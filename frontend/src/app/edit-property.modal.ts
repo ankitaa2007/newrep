@@ -67,8 +67,7 @@ export class PropertyEditorModalComponent implements OnInit {
     if (!this.property) {
       this.property = {
         name: '',
-        address: '',
-        units: []
+        address: ''
       };
     }
   }
